@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Single_Class">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="請選擇類別"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Single_Meal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="主餐" />
+
+        <Button
+            android:id="@+id/Single_Drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="飲料" />
+
+        <Button
+            android:id="@+id/Single_Soup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="湯類" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Single_Class_Back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回主頁" />
+    </LinearLayout>
+</LinearLayout>
