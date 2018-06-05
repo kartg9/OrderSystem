@@ -11,26 +11,44 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="確認是以下點單結果嗎?"
         android:gravity="center"
-        android:textSize="30sp"
+        android:text="確認是以下點單結果嗎?"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/Pack_Result_Meal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/background_dark" />
+        android:gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/Pack_Result_Drink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/background_dark" />
+        android:gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/Pack_Result_Soup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/background_dark" />
+        android:gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/Pack_Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="確定送出" />
+
+    <Button
+        android:id="@+id/Pack_Result_Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回重選" />
 </LinearLayout>
