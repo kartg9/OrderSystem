@@ -7,13 +7,10 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/go"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="go"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="1dp" />
-
-
+        android:layout_weight="1"
+        app:srcCompat="@drawable/home" />
 </LinearLayout>

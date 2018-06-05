@@ -9,17 +9,17 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_weight="0"
-        android:text="歡迎來到XX牛排館"
+        android:gravity="center"
+        android:text="歡迎光臨嶺東牛B"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        android:gravity="center"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="45dp"
         android:layout_weight="0"
         android:text="自助點餐系統使用說明："
         android:textColor="@android:color/black"
@@ -28,35 +28,35 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="40dp"
         android:layout_weight="0"
         android:text='1.請依照"套餐"與"單點"需求進入點餐。'
         android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="45dp"
         android:layout_weight="0"
         android:text="2.套餐每項目只能選擇一種，如需加點請進入單點加點。"
         android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="45dp"
         android:layout_weight="0"
         android:text="3.單點項目請依照類別進入選單。"
         android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="45dp"
         android:layout_weight="0"
         android:text="5.送出點單後，恕不修改，請再三確認已點的餐點。"
         android:textColor="@android:color/black" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="45dp"
         android:layout_weight="0"
         android:text="6.如有任何問題請至櫃台詢問。"
         android:textColor="@android:color/black" />
