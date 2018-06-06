@@ -36,7 +36,6 @@ public class Pack_Meal extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-//                Pack_Meal_Text.setText("大塊厚切牛");
                 Intent intent = new Intent(Pack_Meal.this,Pack_Drink.class);
                 intent.putExtra("Pack_Meal_Value","大塊厚切牛");
                 startActivity(intent);
