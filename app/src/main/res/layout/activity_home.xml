@@ -66,8 +66,10 @@
         android:layout_width="match_parent"
         android:layout_height="99dp"
         android:layout_weight="0"
-        android:background="@drawable/test"
-        android:text="開始點餐" />
+        android:background="@drawable/startbutton"
+        android:text="開始點餐"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
 
 
 </LinearLayout>

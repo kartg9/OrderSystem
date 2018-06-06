@@ -27,9 +27,7 @@ public class MainActivity extends AppCompatActivity{
 
             switch (msg.what) {
                 case GOTO_MAIN_ACTIVITY:
-                    Intent intent = new Intent();
-                    //將原本Activity的換成MainActivity
-                    intent.setClass(MainActivity.this, Home.class);
+                    Intent intent = new Intent(MainActivity.this, Home.class);
                     startActivity(intent);
                     finish();
                     break;

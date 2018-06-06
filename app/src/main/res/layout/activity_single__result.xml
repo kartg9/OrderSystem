@@ -4,11 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Single_Result">
 
     <TextView
-        android:id="@+id/Single_Result_Meal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="以下是您點餐的結果嗎"
+        android:textColor="@android:color/background_dark"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Single_Result_Meal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Single_Result_Drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+    </LinearLayout>
+
 </LinearLayout>

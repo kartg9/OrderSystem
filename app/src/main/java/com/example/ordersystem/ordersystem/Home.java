@@ -24,8 +24,7 @@ public class Home extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(Home.this,Select_Order.class);
+                Intent intent = new Intent(Home.this,Select_Order.class);
                 startActivity(intent);
             }
         });
