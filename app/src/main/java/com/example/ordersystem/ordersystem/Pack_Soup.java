@@ -25,8 +25,8 @@ public class Pack_Soup extends Pack_Drink {
         Intent intent = getIntent();
         final String Pack_Meal_Value = intent.getStringExtra("Pack_Meal_Value");
         final String Pack_Drink_Value = intent.getStringExtra("Pack_Drink_Value");
-        Button Pack_Gipin = (Button)findViewById(R.id.Pack_Soup_Corn);
-        Pack_Gipin.setOnClickListener(new View.OnClickListener() {
+        Button Pack_Corn = (Button)findViewById(R.id.Pack_Soup_Corn);
+        Pack_Corn.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -39,8 +39,8 @@ public class Pack_Soup extends Pack_Drink {
             }
         });
 
-        Button Pack_Dakoai = (Button)findViewById(R.id.Pack_Soup_Beef);
-        Pack_Dakoai.setOnClickListener(new View.OnClickListener() {
+        Button Pack_Beef = (Button)findViewById(R.id.Pack_Soup_Beef);
+        Pack_Beef.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -56,8 +56,8 @@ public class Pack_Soup extends Pack_Drink {
 
 
 
-        Button Pack_Dadin = (Button)findViewById(R.id.Pack_Soup_Seafood);
-        Pack_Dadin.setOnClickListener(new View.OnClickListener() {
+        Button Pack_Seafood = (Button)findViewById(R.id.Pack_Soup_Seafood);
+        Pack_Seafood.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -69,6 +69,22 @@ public class Pack_Soup extends Pack_Drink {
                 startActivity(intent);
             }
         });
+
+        Button Pack_White = (Button)findViewById(R.id.Pack_Soup_White);
+        Pack_White.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(Pack_Soup.this,Pack_Rsult.class);
+                intent.putExtra("Pack_Meal_Value",Pack_Meal_Value);
+                intent.putExtra("Pack_Drink_Value",Pack_Drink_Value);
+                intent.putExtra("Pack_Soup_Value","翡翠白玉羹");
+                startActivity(intent);
+            }
+        });
+
+
 
         Button Pack_Soup_Back = (Button)findViewById(R.id.Pack_Soup_Back);
 

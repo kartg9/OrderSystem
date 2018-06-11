@@ -9,65 +9,137 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="請選擇主餐"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView android:id="@+id/contencrollView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="376dp"
         android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Pack_Gipin"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/four" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="請選擇主餐"
-            android:textColor="@android:color/black"
-            android:textSize="30sp"
+            android:text="極品肋眼牛"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
             android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/Pack_Gipin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="極品肋眼牛" />
 
         <Button
             android:id="@+id/Pack_Dakoai"
             android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/five" />
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="大塊厚切牛" />
+            android:gravity="center"
+            android:text="大塊厚切牛"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Pack_Dadin"
             android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/six"  />
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="大丁骨牛" />
+            android:gravity="center"
+            android:text="大丁骨牛"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Pack_Fali"
             android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/seven" />
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="經典菲力牛" />
+            android:gravity="center"
+            android:text="經典菲力牛"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Pack_Gipai"
             android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/eight" />
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="香煎雞腿排" />
+            android:gravity="center"
+            android:text="香煎雞腿排"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
 
         <Button
             android:id="@+id/Pack_Chupai"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="嫩煎厚豬排" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+            android:layout_height="250dp"
+            android:background="@drawable/nine" />
 
-        <Button
-            android:id="@+id/Pack_Meal_Back"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="返回主頁" />
+            android:gravity="center"
+            android:text="嫩煎厚豬排"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Pack_Meal_Back"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/startbutton"
+                android:text="返回主頁"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+        </LinearLayout>
+
     </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>

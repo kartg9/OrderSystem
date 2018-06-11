@@ -64,7 +64,7 @@
     <Button
         android:id="@+id/Home_OK"
         android:layout_width="match_parent"
-        android:layout_height="99dp"
+        android:layout_height="100dp"
         android:layout_weight="0"
         android:background="@drawable/startbutton"
         android:text="開始點餐"

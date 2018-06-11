@@ -7,55 +7,107 @@
     android:orientation="vertical"
     tools:context=".Pack_Soup">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="請選擇湯類"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView android:id="@+id/contencrollView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="410dp"
         android:layout_weight="0"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:gravity="center"
-            android:text="請選擇湯類"
-            android:textColor="@android:color/black"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
         <Button
             android:id="@+id/Pack_Soup_Corn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:layout_weight="0"
-            android:text="玉米濃湯" />
+            android:background="@drawable/two" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="玉米濃湯"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Pack_Soup_Beef"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:layout_weight="0"
-            android:text="牛肉清湯" />
+            android:background="@drawable/three" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="牛肉清湯"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Pack_Soup_Seafood"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="250dp"
             android:layout_weight="0"
-            android:text="海鮮清湯" />
-    </LinearLayout>
+            android:background="@drawable/sead" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/Pack_Soup_Back"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="海鮮清湯"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Pack_Soup_White"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
             android:layout_weight="0"
-            android:text="返回" />
+            android:background="@drawable/one" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="翡翠白玉羹"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Pack_Soup_Back"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="0"
+                android:background="@drawable/startbutton"
+                android:text="返回"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp" />
+        </LinearLayout>
+
     </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
